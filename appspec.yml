@@ -11,7 +11,11 @@ permissions:
     group: root
     mode: 755
 hooks:
+  ApplicationStop:
+    - location: stop_server.sh
+      timeout: 300
+      runas: root
   AfterInstall:
     - location: deploy.sh
-      timeout: 60
+      timeout: 300
       runas: root
