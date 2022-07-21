@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to jenkins nginx <a href="https://nextjs.org">Next.js!</a>
+          Welcome to aws jenkins nginx <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
